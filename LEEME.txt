@@ -1,0 +1,11 @@
+UNLOCKED LIGGO - PROYECTO ANDROID
+
+Esta es una primera versión de demostración. Incluye una interfaz Android y generador local sencillo de ideas de respuesta por estilos. No incluye todavía IA real ni análisis de capturas; para eso hace falta conectar un servicio de IA mediante un backend seguro (no poner claves secretas dentro de la APK).
+
+Para compilar gratis:
+1. Instala AndroidIDE desde su fuente oficial en tu dispositivo Android.
+2. Extrae esta carpeta y abre la carpeta unlocked_liggo como proyecto Gradle.
+3. Espera a que Gradle sincronice y pulsa Build > Assemble/Build APK.
+4. El APK de depuración se encontrará normalmente en app/build/outputs/apk/debug/app-debug.apk.
+
+Requisitos del proyecto: Android Gradle Plugin 8.6.1, Gradle 8.7, JDK 17 y Android SDK 35. La compilación puede requerir descargar esos componentes.
